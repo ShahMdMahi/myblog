@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { MoonIcon, SunIcon } from '@radix-ui/react-icons'
+import { MoonIcon } from '@radix-ui/react-icons'
 
 export default function Header() {
   return (
