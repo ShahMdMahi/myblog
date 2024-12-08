@@ -9,7 +9,7 @@ interface PostCardProps {
     imageUrl: string
     excerpt: string
     author: {
-      name: string
+      username: string
     }
   }
 }
