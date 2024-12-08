@@ -29,7 +29,7 @@ export default function PostDetail({ slug }: PostDetailProps) {
       />
       <div className="p-8">
         <h1 className="text-3xl font-bold mb-4">{post.title}</h1>
-        <p className="text-gray-600 dark:text-gray-400 mb-4">By {post.author.name}</p>
+        <p className="text-gray-600 dark:text-gray-400 mb-4">By {post.author.username}</p>
         <div className="prose dark:prose-invert max-w-none" dangerouslySetInnerHTML={{ __html: post.content }} />
       </div>
     </article>

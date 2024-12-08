@@ -28,7 +28,7 @@ export default function PostCard({ post }: PostCardProps) {
         <h2 className="text-xl font-semibold mb-2">{post.title}</h2>
         <p className="text-gray-600 dark:text-gray-400 mb-4">{post.excerpt}</p>
         <div className="flex items-center justify-between">
-          <span className="text-sm text-gray-500 dark:text-gray-400">By {post.author.name}</span>
+          <span className="text-sm text-gray-500 dark:text-gray-400">By {post.author.username}</span>
           <Link href={`/post/${post.slug}`} className="text-blue-600 dark:text-blue-400 hover:underline">
             Read more
           </Link>
